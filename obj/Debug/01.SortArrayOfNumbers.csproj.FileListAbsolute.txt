@@ -1,1 +1,6 @@
 C:\GitHub\MyGitHubRepo\bin\Debug\01.HomeworkArraysListsStacksQueues.exe.config
+C:\GitHub\MyGitHubRepo\obj\Debug\01.SortArrayOfNumbers.csprojResolveAssemblyReference.cache
+C:\GitHub\MyGitHubRepo\bin\Debug\01.HomeworkArraysListsStacksQueues.exe
+C:\GitHub\MyGitHubRepo\bin\Debug\01.HomeworkArraysListsStacksQueues.pdb
+C:\GitHub\MyGitHubRepo\obj\Debug\01.HomeworkArraysListsStacksQueues.exe
+C:\GitHub\MyGitHubRepo\obj\Debug\01.HomeworkArraysListsStacksQueues.pdb

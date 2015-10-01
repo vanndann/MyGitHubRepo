@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +36,19 @@ class SortArrayOfNumbers
             Console.Write("{0} ", elements);
 
         }
+        
         Console.WriteLine();
+        string text = "Кирилица";
+        var fileStream = new FileStream("../../log.txt", FileMode.Create);
+        try
+        {
+            byte[] bytes = Encoding.UTF8.GetBytes(text);
+            fileStream.Write(bytes, 0, bytes.Length);
+        }
+        finally
+        {
+            fileStream.Close();
+        }
+
     }
 }
